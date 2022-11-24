@@ -1,0 +1,20 @@
+import { useEffect } from 'react';
+import { withRouter } from 'react-router-dom';
+
+function ScrollToTop({ history }) {
+  useEffect(() => {
+    const unlisten = history.listen(() => {
+      window.scrollTo(0, 0);
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    });
+    return () => {
+      unlisten();
+    }
+    // eslint-disable-next-line 
+  }, []);
+
+  return (null);
+}
+
+export default withRouter(ScrollToTop);
