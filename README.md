@@ -23,8 +23,8 @@ This web-page you can find there -> https://happyinmeal.netlify.app/
 
 <img src="https://github.com/Sentry11/media/raw/main/happyin-1.png" height="250"/>  
 
-<img src="https://github.com/Sentry11/media/raw/main/happyin-1.png" height="250"/>  
+<img src="https://github.com/Sentry11/media/raw/main/happyin-2.png" height="250"/>  
 
-<img src="https://github.com/Sentry11/media/raw/main/happyin-1.png" height="250"/>  
+<img src="https://github.com/Sentry11/media/raw/main/happyin-3.png" height="250"/>  
 
-<img src="https://github.com/Sentry11/media/raw/main/happyin-1.png" height="250"/>
+<img src="https://github.com/Sentry11/media/raw/main/happyin-4.png" height="250"/>
