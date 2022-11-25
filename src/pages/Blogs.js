@@ -1,13 +1,13 @@
 
 import React, { useState } from "react";
-import { Container, ContentWithPaddingXl } from "../temp/Layouts";
+import { Container, ContentWithPaddingXl } from "../typography/Layouts";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro";
 
 
-import { SectionHeading } from "../temp/Headings";
-import { PrimaryButton } from "../temp/Buttons";
+import { SectionHeading } from "../typography/Headings";
+import { PrimaryButton } from "../typography/Buttons";
 
 import AnimationRevealPage from "../helpers/AnimationRevealPage";
 

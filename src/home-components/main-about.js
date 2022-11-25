@@ -2,10 +2,10 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 
-import { SectionHeading, Subheading as SubheadingBase } from "../temp/Headings.js";
-import { PrimaryButton as PrimaryButtonBase } from "../temp/Buttons.js";
-import Pngegg from "../temp/pngegg.png";
-import { ReactComponent as SvgDotPattern } from "../temp/dot-pattern.svg";
+import { SectionHeading, Subheading as SubheadingBase } from "../typography/Headings.js";
+import { PrimaryButton as PrimaryButtonBase } from "../typography/Buttons.js";
+import Pngegg from "../images/pngegg.png";
+import { ReactComponent as SvgDotPattern } from "../images/dot-pattern.svg";
 import { Link } from "react-router-dom";
 
 const Container = tw.div`relative `;

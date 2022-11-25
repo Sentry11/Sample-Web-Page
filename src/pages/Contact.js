@@ -2,8 +2,8 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { SectionHeading, Subheading as SubheadingBase } from "../temp/Headings.js";
-import { PrimaryButton as PrimaryButtonBase } from "../temp/Buttons.js";
+import { SectionHeading, Subheading as SubheadingBase } from "../typography/Headings.js";
+import { PrimaryButton as PrimaryButtonBase } from "../typography/Buttons.js";
 import AnimationRevealPage from "../helpers/AnimationRevealPage.js";
 
 

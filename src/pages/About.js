@@ -1,12 +1,12 @@
 import React from "react";
 import tw from "twin.macro";
 
-import MainFeature1 from "../sections/TwoColWithButton.js";
-import Features from "../sections/ThreeColSimple.js";
-import TeamCardGrid from "../sections/ProfileThreeColGrid.js";
-import SupportIconImage from "../temp/support-icon.svg";
-import ShieldIconImage from "../temp/shield-icon.svg";
-import CustomerLoveIconImage from "../temp/simple-icon.svg";
+import MainFeature1 from "../sections/ColumnWithButton.js";
+import Features from "../sections/Column.js";
+import TeamCardGrid from "../sections/Profile.js";
+import SupportIconImage from "../icons/support-icon.svg";
+import ShieldIconImage from "../icons/shield-icon.svg";
+import CustomerLoveIconImage from "../icons/simple-icon.svg";
 
 import AnimationRevealPage from "../helpers/AnimationRevealPage.js";
 

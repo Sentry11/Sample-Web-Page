@@ -1,12 +1,14 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import {Container as ContainerBase } from "../temp/Layouts.js"
-
-import { ReactComponent as FacebookIcon } from "../temp/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "../temp/twitter-icon.svg";
-import { ReactComponent as YoutubeIcon } from "../temp/youtube-icon.svg";
 import { Link as LinkRouter } from "react-router-dom";
+
+
+import {Container as ContainerBase } from "../typography/Layouts.js"
+import { ReactComponent as FacebookIcon } from "../icons/facebook-icon.svg";
+import { ReactComponent as TwitterIcon } from "../icons/twitter-icon.svg";
+import { ReactComponent as YoutubeIcon } from "../icons/youtube-icon.svg";
+
 
 const Container = tw(ContainerBase)`bg-[#0B0205] text-white  `
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;

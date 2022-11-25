@@ -1,34 +1,13 @@
-// import React from "react";
-// import { ReactComponent as SvgDecoratorBlob1 } from "../temp/dot-pattern.svg"
-// import styled from "styled-components";
-
-// import tw from "twin.macro";
-
-
-// const ImageDecoratorBlob = styled(SvgDecoratorBlob1)`
-//   ${tw`pointer-events-none z-10 relative right-0 bottom-0 transform translate-x-10 translate-y-10 h-32 w-32 opacity-25 text-gray-900 `}
-// `;
-// const PageCTA = () => {
-    
-//     return (
-//         <> 
-//          <ImageDecoratorBlob/>
-//         <h1>CTA Page</h1>;
-//         </>
-   
-//     )
-// };
-
-// export default PageCTA;
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import mockupImageSrc from "../temp/app-mockup.png"
-import { ContentWithPaddingXl, Container as ContainerBase } from "../temp/Layouts";
-import { SectionHeading, Subheading as SubheadingBase } from "../temp/Headings.js";
-import appleIconImageSrc from "../temp/apple-icon.png";
-import googlePlayIconImageSrc from "../temp/google-play-icon.png"
+
+import mockupImageSrc from "../images/app-mockup.png"
+import { ContentWithPaddingXl, Container as ContainerBase } from "../typography/Layouts";
+import { SectionHeading, Subheading as SubheadingBase } from "../typography/Headings.js";
+import appleIconImageSrc from "../icons/apple-icon.png";
+import googlePlayIconImageSrc from "../icons/google-play-icon.png"
 import AnimationRevealPage from "../helpers/AnimationRevealPage";
 
 const Container = tw(ContainerBase)`bg-[#DCCAE9]   h-screen pt-40  `

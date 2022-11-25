@@ -1,10 +1,10 @@
 import React from "react";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { SectionHeading } from "../temp/Headings.js";
-import { SectionDescription } from "../temp/Typography.js";
-import { Container, ContentWithVerticalPadding } from "../temp/Layouts.js";
-import { ReactComponent as CheckboxIcon } from "../temp/CheckboxIcon.svg";
+import { SectionHeading } from "../typography/Headings.js";
+import { SectionDescription } from "../typography/Typography.js";
+import { Container, ContentWithVerticalPadding } from "../typography/Layouts.js";
+import { ReactComponent as CheckboxIcon } from "../icons/CheckboxIcon.svg";
 import AnimationRevealPage from "../helpers/AnimationRevealPage.js";
 
 import CardProducts from "../home-components/card-products.js";

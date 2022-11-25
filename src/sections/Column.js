@@ -2,14 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { SectionHeading, Subheading as SubheadingBase } from "../temp/Headings.js";
-import { SectionDescription } from "../temp/Typography.js";
-import { Container, ContentWithPaddingXl } from "../temp/Layouts.js";
-import { ReactComponent as ArrowRightIcon } from "../temp/arrow-right-icon.svg";
-import SupportIconImage from "../temp/support-icon.svg";
-import ShieldIconImage from "../temp/shield-icon.svg";
-import CustomizeIconImage from "../temp/customize-icon.svg";
-import { ReactComponent as SvgDecoratorBlob3 } from "../temp/svg-decorator-blob-3.svg";
+
+import { SectionHeading, Subheading as SubheadingBase } from "../typography/Headings.js";
+import { SectionDescription } from "../typography/Typography.js";
+import { Container, ContentWithPaddingXl } from "../typography/Layouts.js";
+import { ReactComponent as ArrowRightIcon } from "../icons/arrow-right-icon.svg";
+import SupportIconImage from "../icons/support-icon.svg";
+import ShieldIconImage from "../icons/shield-icon.svg";
+import CustomizeIconImage from "../icons/customize-icon.svg";
+import { ReactComponent as SvgDecoratorBlob3 } from "../images/svg-decorator-blob-3.svg";
 
 const Heading = tw(SectionHeading)``;
 const Subheading = tw(SubheadingBase)`text-center mb-3 ` ;

@@ -2,12 +2,13 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro";
-import { Container, ContentWithPaddingXl } from "../temp/Layouts.js";
-import { SectionHeading, Subheading as SubheadingBase } from "../temp/Headings";
-import {SectionDescription} from "../temp/Typography";
-import { ReactComponent as TwitterIcon} from "../temp/twitter-icon.svg";
-import { ReactComponent as LinkedinIcon} from "../temp/youtube-icon.svg";
-import { ReactComponent as GithubIcon } from "../temp/facebook-icon.svg";
+
+import { Container, ContentWithPaddingXl } from "../typography/Layouts.js";
+import { SectionHeading, Subheading as SubheadingBase } from "../typography/Headings";
+import {SectionDescription} from "../typography/Typography";
+import { ReactComponent as TwitterIcon} from "../icons/twitter-icon.svg";
+import { ReactComponent as LinkedinIcon} from "../icons/youtube-icon.svg";
+import { ReactComponent as GithubIcon } from "../icons/facebook-icon.svg";
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)`text-black`

@@ -1,8 +1,9 @@
 import React from "react";
-import { Container, ContentWithPaddingXl } from "../temp/Layouts";
 import tw  from "twin.macro";
 import styled from "styled-components";
-import { SectionHeading } from "../temp/Headings";
+
+import { Container, ContentWithPaddingXl } from "../typography/Layouts";
+import { SectionHeading } from "../typography/Headings";
 
 
 

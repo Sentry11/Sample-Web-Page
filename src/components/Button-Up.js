@@ -1,7 +1,7 @@
 import { useState} from "react";
 import tw from "twin.macro";
 
-import {ReactComponent as ArrovUp}  from '../temp/arrov-up.svg'
+import {ReactComponent as ArrovUp}  from '../icons/arrov-up.svg'
 
 
 const Button = tw.div`
@@ -9,11 +9,7 @@ fixed m-0 bottom-16 ml-72 left-3/4 h-auto z-50 bg-[#9356A0] rounded-full border-
 cursor-pointer xl:ml-64 lg:ml-40 md: ml-36 sm: ml-4
 `
 
-
-
-
 const ButtonUp = () => {
-
 
     const [visible, setVisible] = useState(true)
   
